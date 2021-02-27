@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/dl.css">
+</head>
+<body>
+    <!-- logo区域 -->
+    <div class="box1 width">
+        <div class="logo layer">
+            <a href="./shouye.html">
+                <img src="https://www.zhongjiu.cn/Images/loginLogo.png" alt="">
+            </a>
+            <h1>欢迎登录</h1>
+        </div>
+    </div>
+    <!-- 登录区域 -->
+    <div class="box2 width">
+        <div class="content layer">
+            <img src="https://www.zhongjiu.cn/Areas/Web/Images/loginBannerImg.png" alt="">
+            <div class="format">
+                <h3>
+                    <a href="#">扫码登录</a>
+                    <a href="#" class='active'>账号登录</a>
+                </h3>
+                <form action="#" class="denglu">
+                    <input type="text" name="user" id="username" placeholder="请输入用户名" style="background: url(../images/ren.png) no-repeat 0 0;">
+                    <input type="password" name="pw" id="password" placeholder="请输入密码" style="background: url(../images/suo.png) no-repeat 0 0;margin-bottom: 26px;">
+                    <label for="" id="isRight">用户名和密码不匹配</label>
+                    <button class="dlBtn">登录</button>
+                    <p>
+                        <a href="#">短信验证码登录</a>
+                        <a href="#">忘记密码</a>
+                    </p>
+                </form>
+                <h5>
+                    <a href="#" style="background:url(https://www.zhongjiu.cn/Areas/Web/Images/icon-weibo.png) no-repeat 0 -2px">微博</a>
+                    <a href="#" style="background:url(https://www.zhongjiu.cn/Areas/Web/Images/icon-weixin.png) no-repeat 0 -1px">微信</a>
+                    <a href="#" style="padding: 0;border:0">立即注册</a>
+                </h5>
+            </div>
+            
+        </div>
+    </div>
+    <!-- footer区域 -->
+    <div class="box3 width">
+        <div class="footer layer">
+            <span>Copyright © 2021   中酒网 版权所有</span>
+        </div>
+    </div>
+
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../validation/dist/jquery.validate.min.js"></script>
+    <script src="../validation/dist/localization/messages_zh.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/dl.js"></script>
+</body>
+</html>

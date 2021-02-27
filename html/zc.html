@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/zc.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="box1 width">
+        <div class="header layer">
+            <a href="#" class="scsc"><i><img src="http://zjw.io/zhongjiuwang/images/20130725.png" alt=""></i>&nbsp;&nbsp;收藏商城</a>
+            <p>
+                <span>您好！欢迎来到商城！</span>
+                <a href="#">[登录]</a>
+                <a href="#">[免费注册]</a>
+            </p>
+        </div>
+    </div>
+    <!-- logo区域 -->
+    <div class="box2 width">
+        <div class="logo layer">
+            <a href="./shouye.html">
+                <img src="https://www.zhongjiu.cn/Images/zhongjiuloginlog.png" alt="">
+            </a>
+            <h1>欢迎注册</h1>
+        </div>
+    </div>
+    <div class="box3 width">
+        <div class="register layer">
+            <h5>
+                <span>我已经注册，现在就</span><a href="./login.html">登录</a>
+            </h5>
+        </div>
+    </div>
+    <!-- 注册区域 -->
+    <div class="box4 width">
+        <div class="content layer">
+            <form class="form">
+                <p>
+                    <span>用户名:</span>
+                    <input type="text" name="user" id="username">
+                    <i class="phone"></i>
+                </p>
+                <p>
+                    <span>手机号码:</span>
+                    <input type="text" name="cell" id="tel">
+                    <i class="phone"></i>
+                </p>
+                <p>
+                    <span>滑块验证:</span>
+                    <b>>></b>
+                    <input type="button" name="pull" id="move" value="请按住滑块,拖动到最右边">
+                </p>
+                <p>
+                    <span>请设置密码:</span>
+                    <input type="password" name="password" id="pw">
+                    <i class="pwbg"></i>
+                </p>
+                <p>
+                    <span>请确认密码:</span>
+                    <input type="password" name="recheck" id="repw">
+                    <i class="pwbg"></i>
+                </p>
+                <p>
+                    <span>手机验证码:</span>
+                    <input type="text" name="telcode" id="code">
+                    <a href="#" class="getCode">获取验证码</a>
+                </p>
+                <p>    
+                    <input type="checkbox" name="reading" id="agree">
+                    <span class="read">我已阅读并同意《</span><a href="https://www.zhongjiu.cn/Register/RegisterAgreement" class="agreement">用户注册协议</a><span class="fuhao">》</span>
+                </p>          
+                <button class="submitBtn">立即注册</button>
+            </form>
+        </div>
+    </div>
+    <!-- footer区域 -->
+    <div class="box5 width">
+        <div class="footer layer">
+            <span>Copyright©2004-2015   中酒网  版权所有</span>
+        </div>
+    </div>
+    <script src="../js/gverify.js"></script>
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../validation/dist/jquery.validate.min.js"></script>
+    <script src="../validation/dist/localization/messages_zh.min.js"></script>
+    <script src="../js/zc.js"></script>
+</body>
+</html>

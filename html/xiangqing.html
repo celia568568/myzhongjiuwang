@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/xqy.css">
+    <script src="../jquery/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 登录导航 -->
+    <div class="box1 width">
+        <div id="header" class="layer clearfix">
+            <ul class="left fl">
+                <li>您好,欢迎来到&nbsp;<strong>中酒网!</strong></li>
+                <li class="tosy"><a href="./shouye.html" target="_self" style="color:red">去首页</a></li>
+                <li><a href="javascript:;" class="askLogin">请登录&nbsp;&nbsp;<i>|</i>&nbsp;&nbsp;</a></li>
+                <li><a href="./zc.html">免费注册</a></li>
+            </ul>
+            <ul class="right fr">
+                <li class="myShop">
+                    <a href="#">我的中酒网<span></span></a>
+                    <div class="mine">
+                        <a href="#">已买到的商品</a>
+                        <a href="#">我关注的商品</a>
+                        <a href="#">我关注的店铺</a>
+                    </div>
+                </li>
+                <li class="cartLogo"><a href="./cart.html" >购物车&nbsp;<b class="cartQty">0</b>&nbsp;件</a></li>
+                <li class="wx">
+                    <a href="#">微信端</a>
+                    <div class="weixin">
+                        <img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/Site/qrCode.png" alt="">
+                    </div>
+                </li>
+                <li class="ap">
+                    <a href="#">APP</a>
+                    <div class="app">
+                        <img src="http://img6.zhongjiu.cn/ResourceB2B2C/App/mob.jpg" alt="">
+                        <h3>扫描二维码</h3>
+                        <h5>下载手机客户端</h5>
+                    </div>
+                </li>
+                <li><a href="#">卖家中心<span></span></a></li>
+                <li><a href="#">订购热线：400-798-9999</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 搜索栏 -->
+    <div class="box2 width">
+        <div id="logo" class="layer">
+            <a href="#" class="logo1"><img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/Site/logo.png" alt=""></a>
+            <a href="#" class="logo2"><img src="http://img5.zhongjiu.cn/pro/dt/gif.gif" alt=""></a>
+            <!-- 搜索框 -->
+            <div class="search">
+                <div class="select">
+                    <p>商品</p>
+                    <p>店铺</p>
+                </div>
+                <div class="inp">
+                    <a href="#" class="pro">商品</a><span></span>
+                    <input class = "find" type="text" placeholder="天德佑">
+                    <input class="sousuo" type="button" value="搜索">
+                    <div class="showBox">
+                        
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#" style="color:#e3393c;">西凤</a></li>
+                    <li><a href="#">青稞酒</a></li>
+                    <li><a href="#">洋河</a></li>
+                    <li><a href="#">习酒</a></li>
+                    <li><a href="#">小糊涂仙</a></li>
+                    <li><a href="#">酒鬼酒</a></li>
+                    <li><a href="#">张裕</a></li>
+                    <li><a href="#">拉菲</a></li>
+                    <li><a href="#">董酒</a></li>
+                    <li><a href="#">华夏长城</a></li>
+                </ul>
+            </div>
+            <a href="#" class="logo3 fr"><img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/ImageAd/201802011650389711990.jpg" alt=""></a>           
+        </div>
+    </div>
+    <!-- 导航栏（全部商品分类） -->
+    <div class="box3 width">
+        <div id="nav" class="layer">
+            <div><a href="./shouye.html" class="allPro">全部商品分类<i></i></a></div>
+            <ul>
+                <li><a href="#" style="margin-left: 55px;border-bottom: 2px solid #dd0207;color:#f00f34">首页</a></li>
+                <li><a href="#">天德佑青稞酒</a></li>
+                <li><a href="#">品牌新闻</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 详情页商品展示栏 -->
+    <div class="box4 width">
+        <div id="xiangqing_item" class="layer">
+            <div class="xqTop">
+                <div class="xq_left">
+                    <!-- <h2>42度天佑德青稞酒小黑125ml×4</h2>
+
+                    <div class="xqBig">
+
+                        <div class="cover"></div>
+                        <div class="moveBox"></div>
+
+
+                        <img src="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/1_350.png" alt="">
+                    </div> -->
+                    <ul class="xqSmall">
+                        <!-- <li class="active"><img src="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/1_50.png" alt=""  midImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/1_350.png"  bigImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/1.png"></li>
+
+                        <li><img src="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/2_50.png" alt=""  midImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/2_350.png"  bigImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/2.png"></li>
+
+                        <li><img src="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/3_50.png" alt=""  midImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/3_350.png"  bigImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/3.png"></li>
+
+                        <li><img src="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/4_50.png" alt=""  midImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/4_350.png"  bigImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/4.png"></li>
+
+                        <li><img src="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/5_50.png" alt=""  midImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/5_350.png"  bigImg="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/1/Products/95390/5.png"></li> -->
+                    </ul>
+                    <div class="fenxiang">
+                        <a href="#" class="shoucang">收藏商品</a>
+                        <h5>
+                            <span>分享到:&nbsp;&nbsp;<img src="https://www.zhongjiu.cn/Images/qzone.png" alt=""></span>
+                            <i class="toWeixin"><img src="https://www.zhongjiu.cn/Images/wx.png" alt=""></i>
+                        </h5>
+                    </div>
+                </div>
+                <div class="xq_center">
+                    <!-- <h2>42度天佑德青稞酒小黑125ml×4</h2>
+                        <h5>${obj.marks}</h5>
+                    <h3>
+                        <p>
+                            <span>价格<i class="pr">￥119.00</i></span>
+                            <b>手机购买</b>
+                        </p>
+                            <ul class="xq_data">
+                                <li><span>销量&nbsp;&nbsp;</span><b>5569瓶</b></li>
+                                <li><span>评价&nbsp;&nbsp;</span><b>2005</b></li>
+                                <li><span>评分:&nbsp;&nbsp;</span><i></i></li>
+                            </ul>
+                        
+                    </h3>
+                    <ul class="xqInfo">
+                        <li><span>运费:</span><em style="font-style: normal;">￥0</em></li>
+                        <li><span>促销</span><i></i>满<b>39.00</b>免运费</li>
+                        <li><span>库出</span><i>有货</i></li>
+                        <li>
+                            <span>物流</span><i>配送至</i>
+                            <b class="xqCountry">
+                                <a href="#">北京</a>
+                                <a href="#">北京市</a>
+                                <a href="#">朝阳区</a>
+                            </b>
+                            <i>|&nbsp;支持货到付款</i>
+                        </li>
+                        <li><span>服务</span><i>由 <b>中酒自营</b> 从北京发货，并提供售后服务</i></li>
+                    </ul>   -->
+                    <!-- <div class="xqBtn">
+                        <i class="shuliang">数量</i>
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default reduce">-</button>
+                            <button type="button" class="btn btn-default ">1</button>
+                            <button type="button" class="btn btn-default add">+</button>
+                        </div>
+                        <div class='jump'>
+                            <span class="goCart">立即购买</span>
+                            <span class="addCart">加入购物车</span>
+                        </div>
+                    </div>             -->
+                </div>
+                <div class="xq_right">
+                    <div class="pic">
+                        <figure>
+                         <img src="https://img6.zhongjiu.cn/resourceb2b2c/Storage/Plat/Brand/logo_838.jpg" alt="">
+                         <a href="#">天德佑</a>
+                        </figure>
+                    </div>
+                    <h3>
+                        <span>自营</span>
+                        <a href="#">中酒自营店</a>
+                    </h3>
+                    <h5><a href="#">在线客服</a></h5>
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd>及时发货</dd>
+                        <dd style="background-image:url(https://www.zhongjiu.cn/Images/genuine-product.png);">正品保证</dd>
+                        <dd style="background-image:url(https://www.zhongjiu.cn/Images/professional-services.png);">专业一对一服务</dd>
+                        <dd style="background-image:url(https://www.zhongjiu.cn/Images/change-a-purchase.png);">七天无理由退换</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="xqBotttom">
+                <div class="description">
+                    <a href="#" class="active" style="border-right:1px solid #cccccc;border-left:1px solid #cccccc;">商品详情</a>
+                    <a href="#">品牌介绍</a>
+                    <a href="#">商品评价(2005)</a>
+                    <a href="#">商品咨询</a>
+                    <a href="#">商品推荐</a>
+                </div>
+                <div class="showZone">
+                    <!-- <p><img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/0/Products/83239/Details/50d2d2310503454db05cca7af9d47138.jpg" alt=""></p>
+                    <p><img src="http://img6.zhongjiu.cn/resourceb2b2c/Storage/Shop/0/Products/83239/Details/04d13eb5a40a45538f0d8b4dd11cd126.jpg" alt=""></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/xiangqing.js"></script>
+</body>
+</html>
